@@ -1,0 +1,2 @@
+# .macos
+🍎 MacOS configs
