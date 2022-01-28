@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# alacritty
+ln -f alacritty.yml ~/.config/alacritty/alacritty.yml
+
+# tmux
+ln -f tmux.conf ~/.tmux.conf
+
+# nvim
+ln -f nvim.vim ~/.config/nvim/init.vim
