@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# ghostty
+ln -f ghostty.conf ~/.config/ghostty/config
+
 # alacritty
 ln -f alacritty.toml ~/.config/alacritty/alacritty.toml
 
