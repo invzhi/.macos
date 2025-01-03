@@ -3,11 +3,5 @@
 # ghostty
 ln -f ghostty.conf ~/.config/ghostty/config
 
-# alacritty
-ln -f alacritty.toml ~/.config/alacritty/alacritty.toml
-
-# tmux
-ln -f tmux.conf ~/.tmux.conf
-
 # nvim
 ln -f nvim.vim ~/.config/nvim/init.vim
