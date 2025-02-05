@@ -1,0 +1,29 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-`": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-;": "editor::ToggleGitBlame",
+      "cmd-[": "pane::ActivatePrevItem",
+      "cmd-]": "pane::ActivateNextItem"
+    }
+  },
+  {
+    "context": "(Editor && mode == full) || Terminal",
+    "bindings": {
+      "cmd-enter": "assistant::InlineAssist"
+    }
+  }
+]

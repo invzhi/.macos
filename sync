@@ -5,3 +5,7 @@ ln -f ghostty.conf ~/.config/ghostty/config
 
 # nvim
 ln -f nvim.vim ~/.config/nvim/init.vim
+
+# zed
+ln -f zed/settings.json ~/.config/zed/settings.json
+ln -f zed/keymap.json ~/.config/zed/keymap.json
