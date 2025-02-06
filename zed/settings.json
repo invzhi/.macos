@@ -8,11 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   // Dark theme, vim mode and auto save.
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "One Dark"
-  },
+  "theme": "One Dark",
   "vim_mode": true,
   "autosave": {
     "after_delay": {

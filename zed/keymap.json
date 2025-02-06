@@ -21,7 +21,7 @@
     }
   },
   {
-    "context": "(Editor && mode == full) || Terminal",
+    "context": "(Editor && mode == full && !(ContextEditor > Editor)) || Terminal",
     "bindings": {
       "cmd-enter": "assistant::InlineAssist"
     }
