@@ -7,8 +7,13 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  // Dark theme, vim mode and auto save.
+  // Dark theme and font.
   "theme": "One Dark",
+  "buffer_font_family": "Monaco",
+  "buffer_font_size": 13,
+  "ui_font_family": "Monaco",
+  "ui_font_size": 15,
+  // Vim mode and auto save.
   "vim_mode": true,
   "autosave": {
     "after_delay": {
