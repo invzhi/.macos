@@ -8,22 +8,12 @@
 [
   {
     "context": "Workspace",
-    "bindings": {
-      "cmd-`": "terminal_panel::ToggleFocus"
-    }
+    "bindings": {}
   },
   {
     "context": "Editor",
     "bindings": {
-      "cmd-;": "editor::ToggleGitBlame",
-      "cmd-[": "pane::ActivatePrevItem",
-      "cmd-]": "pane::ActivateNextItem"
-    }
-  },
-  {
-    "context": "(Editor && mode == full && !(ContextEditor > Editor)) || Terminal",
-    "bindings": {
-      "cmd-enter": "assistant::InlineAssist"
+      "cmd-;": "editor::ToggleGitBlame"
     }
   }
 ]

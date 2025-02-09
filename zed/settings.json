@@ -15,11 +15,7 @@
   "ui_font_size": 15,
   // Vim mode and auto save.
   "vim_mode": true,
-  "autosave": {
-    "after_delay": {
-      "milliseconds": 10000
-    }
-  },
+  "autosave": "on_focus_change",
   // AI assistant.
   "assistant": {
     "version": "2",
