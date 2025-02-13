@@ -25,7 +25,7 @@
     }
   },
   // Proxy for GFW.
-  "proxy": "socks5h://localhost:7890",
+  "proxy": "socks5h://127.0.0.1:7890",
   // Disable inline git blame, collaboration panel, edit predictions and telemetry.
   "git": {
     "inline_blame": {
