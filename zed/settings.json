@@ -16,6 +16,12 @@
   // Vim mode and auto save.
   "vim_mode": true,
   "autosave": "on_focus_change",
+  // Disable format on save for yaml.
+  "languages": {
+    "YAML": {
+      "format_on_save": "off"
+    }
+  },
   // Edit prediction and AI assistant.
   "features": {
     "edit_prediction_provider": "zed"
