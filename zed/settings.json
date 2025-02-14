@@ -16,7 +16,10 @@
   // Vim mode and auto save.
   "vim_mode": true,
   "autosave": "on_focus_change",
-  // AI assistant.
+  // Edit prediction and AI assistant.
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
   "assistant": {
     "version": "2",
     "default_model": {
@@ -26,7 +29,7 @@
   },
   // Proxy for GFW.
   "proxy": "socks5h://127.0.0.1:7890",
-  // Disable inline git blame, collaboration panel, edit predictions and telemetry.
+  // Disable inline git blame, collaboration panel and telemetry.
   "git": {
     "inline_blame": {
       "enabled": false
@@ -34,9 +37,6 @@
   },
   "collaboration_panel": {
     "button": false
-  },
-  "features": {
-    "inline_completion_provider": "none"
   },
   "telemetry": {
     "diagnostics": false,
