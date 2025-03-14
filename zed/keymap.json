@@ -15,7 +15,7 @@
     "bindings": {
       "cmd-[": "pane::GoBack",
       "cmd-]": "pane::GoForward",
-      "cmd-;": "editor::ToggleGitBlame"
+      "cmd-;": "git::Blame"
     }
   }
 ]
