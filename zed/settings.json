@@ -22,6 +22,16 @@
       "format_on_save": "off"
     }
   },
+  // Disable modernize for Go.
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "analyses": {
+          "modernize": false
+        }
+      }
+    }
+  },
   // Edit prediction and AI assistant.
   "features": {
     "edit_prediction_provider": "zed"
