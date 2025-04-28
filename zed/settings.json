@@ -13,8 +13,12 @@
   "buffer_font_size": 13,
   "ui_font_family": "Monaco",
   "ui_font_size": 15,
-  // Vim mode and auto save.
+  // Vim mode and only use system clipboard when explicitly specified.
   "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "never"
+  },
+  // Auto save.
   "autosave": "on_focus_change",
   // Disable format on save for yaml.
   "languages": {
