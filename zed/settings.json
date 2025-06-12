@@ -20,12 +20,6 @@
   },
   // Auto save.
   "autosave": "on_focus_change",
-  // Disable format on save for yaml.
-  "languages": {
-    "YAML": {
-      "format_on_save": "off"
-    }
-  },
   // Disable modernize for Go.
   "lsp": {
     "gopls": {
