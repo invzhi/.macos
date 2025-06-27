@@ -20,6 +20,22 @@
   },
   // Auto save.
   "autosave": "on_focus_change",
+  // Disable Dockerfile formatter, use Ruff as Python formatter.
+  "languages": {
+    "Dockerfile": {
+      "format_on_save": "off"
+    },
+    "Python": {
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
+    }
+  },
   // Disable modernize for Go.
   "lsp": {
     "gopls": {
