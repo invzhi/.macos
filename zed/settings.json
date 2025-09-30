@@ -65,12 +65,22 @@
     "enabled_in_text_threads": false
   },
   "agent": {
-    "version": "2",
+    "always_allow_tool_actions": true,
+    "default_profile": "ask",
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-7-sonnet-thinking-latest"
+      "provider": "google",
+      "model": "gemini-2.5-flash"
     }
   },
+  // Colima.
+  "ssh_connections": [
+    {
+      "host": "lima-colima",
+      "projects": [{ "paths": ["~/wechatbot"] }],
+      "args": ["-F", "/Users/invzhi/.colima/_lima/colima/ssh.config"],
+      "upload_binary_over_ssh": true
+    }
+  ],
   // Proxy for GFW.
   "proxy": "socks5h://127.0.0.1:7890",
   // Disable inline git blame, collaboration panel and telemetry.
