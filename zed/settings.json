@@ -72,6 +72,11 @@
       "model": "gemini-2.5-flash"
     }
   },
+  "agent_servers": {
+    "gemini": {
+      "ignore_system_version": false
+    }
+  },
   // Colima.
   "ssh_connections": [
     {
@@ -82,7 +87,7 @@
     }
   ],
   // Proxy for GFW.
-  "proxy": "socks5h://127.0.0.1:7890",
+  "proxy": "http://127.0.0.1:7890",
   // Disable inline git blame, collaboration panel and telemetry.
   "git": {
     "inline_blame": {
