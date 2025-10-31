@@ -18,6 +18,10 @@
   "vim": {
     "use_system_clipboard": "never"
   },
+  // Minimap.
+  "minimap": {
+    "show": "auto"
+  },
   // Auto save.
   "autosave": "on_focus_change",
   // Disable Dockerfile formatter, use Ruff as Python formatter.
@@ -66,7 +70,7 @@
   },
   "agent": {
     "always_allow_tool_actions": true,
-    "default_profile": "ask",
+    "default_profile": "write",
     "default_model": {
       "provider": "google",
       "model": "gemini-2.5-flash"
