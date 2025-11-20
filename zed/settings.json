@@ -29,15 +29,8 @@
     "Dockerfile": {
       "format_on_save": "off"
     },
-    "Python": {
-      "format_on_save": "on",
-      "formatter": [
-        {
-          "language_server": {
-            "name": "ruff"
-          }
-        }
-      ]
+    "YAML": {
+      "format_on_save": "off"
     }
   },
   // Disable modernize for Go.
