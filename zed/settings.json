@@ -7,6 +7,8 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  // Disable auto update.
+  "auto_update": false,
   // Dark theme and font.
   "theme": "One Dark",
   "buffer_font_family": "Monaco",
@@ -63,7 +65,7 @@
   },
   "agent": {
     "always_allow_tool_actions": true,
-    "default_profile": "write",
+    "default_profile": "ask",
     "default_model": {
       "provider": "google",
       "model": "gemini-2.5-flash"
@@ -80,6 +82,11 @@
       "host": "lima-colima",
       "projects": [{ "paths": ["~/wechatbot"] }],
       "args": ["-F", "/Users/invzhi/.colima/_lima/colima/ssh.config"],
+      "upload_binary_over_ssh": true
+    },
+    {
+      "host": "invzhi@netmap.invzhi.heiyu.space",
+      "projects": [{ "paths": ["~/repos/droid"] }],
       "upload_binary_over_ssh": true
     }
   ],
