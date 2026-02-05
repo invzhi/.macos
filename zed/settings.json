@@ -34,9 +34,6 @@
     },
   },
   // Edit prediction and AI assistant.
-  "features": {
-    "edit_prediction_provider": "zed",
-  },
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
