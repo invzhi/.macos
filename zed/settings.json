@@ -32,6 +32,9 @@
     "YAML": {
       "format_on_save": "off",
     },
+    "HTML": {
+      "format_on_save": "off",
+    },
   },
   // Edit prediction and AI assistant.
   "edit_predictions": {
@@ -43,23 +46,29 @@
     "enabled_in_text_threads": false,
   },
   "agent": {
-    "always_allow_tool_actions": true,
+    "inline_assistant_model": {
+      "provider": "openai",
+      "model": "gpt-5.4",
+      "enable_thinking": false,
+    },
     "default_profile": "write",
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-opus-4-5",
+      "provider": "openai",
+      "model": "gpt-5.4",
     },
   },
   "agent_servers": {
-    "codex": {
-      "default_mode": "auto",
-      "default_model": "gpt-5.2/high",
-      "favorite_models": [],
-      "default_config_options": {},
-      "favorite_config_option_values": {},
+    "codex-acp": {
+      "default_config_options": {
+        "mode": "auto",
+      },
+      "type": "registry",
+      "env": {
+        "HTTPS_PROXY": "http://127.0.0.1:7890",
+      },
     },
   },
-  // Colima.
+  // Remote development.
   "ssh_connections": [
     {
       "host": "lima-colima",
