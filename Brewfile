@@ -1,0 +1,10 @@
+brew "btop"
+brew "container"
+brew "fd"
+brew "git-delta"
+brew "go@1.25", link: true
+brew "htop"
+brew "neovim"
+brew "ripgrep"
+brew "uv"
+brew "zoxide"
