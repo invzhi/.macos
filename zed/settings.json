@@ -59,9 +59,6 @@
   },
   "agent_servers": {
     "codex-acp": {
-      "default_config_options": {
-        "mode": "auto",
-      },
       "type": "registry",
       "env": {
         "HTTPS_PROXY": "http://127.0.0.1:7890",
