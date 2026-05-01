@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# zsh
+ln -f zprofile ~/.zprofile
+
 # ghostty
 mkdir -p ~/.config/ghostty
 ln -f ghostty.conf ~/.config/ghostty/config
