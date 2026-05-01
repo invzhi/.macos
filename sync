@@ -3,13 +3,16 @@
 # zsh
 ln -f zprofile ~/.zprofile
 
-# ghostty
-mkdir -p ~/.config/ghostty
-ln -f ghostty.conf ~/.config/ghostty/config
+# gitconfig
+ln -f gitconfig ~/.gitconfig
 
 # nvim
 mkdir -p ~/.config/nvim
 ln -f nvim.vim ~/.config/nvim/init.vim
+
+# ghostty
+mkdir -p ~/.config/ghostty
+ln -f ghostty.conf ~/.config/ghostty/config
 
 # zed
 mkdir -p ~/.config/zed
