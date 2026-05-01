@@ -11,3 +11,10 @@ eval "$(zoxide init zsh)"
 
 # go
 export GOPROXY=https://goproxy.cn,direct
+
+# pnpm
+export PNPM_HOME="/Users/invzhi/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac

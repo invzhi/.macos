@@ -1,3 +1,4 @@
+.PHONY: Brewfile
 Brewfile:
 	brew bundle dump --force
 
