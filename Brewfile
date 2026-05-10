@@ -1,3 +1,4 @@
+brew "bat"
 brew "btop"
 brew "container"
 brew "fd"
@@ -6,9 +7,12 @@ brew "go@1.25", link: true
 brew "htop"
 brew "neovim"
 brew "node"
-brew "pnpm"
+brew "pnpm@10", link: true
 brew "python@3.12"
 brew "ripgrep"
+brew "rustup"
+brew "tree"
 brew "uv"
 brew "zoxide"
 cask "android-platform-tools"
+cask "codex"
