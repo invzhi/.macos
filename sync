@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # zsh
+ln -f zshrc ~/.zshrc
 ln -f zprofile ~/.zprofile
 
 # gitconfig
