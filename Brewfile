@@ -19,11 +19,13 @@ brew "node"
 # Fast, disk space efficient package manager
 brew "pnpm@10", link: true
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
+brew "python@3.13"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Rust toolchain installer
 brew "rustup"
+# Display and control your Android device
+brew "scrcpy"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Extremely fast Python package installer and resolver, written in Rust
