@@ -11,6 +11,7 @@ eval "$(zoxide init zsh)"
 
 # go
 export GOPROXY=https://goproxy.cn,direct
+export PATH="$HOME/go/bin:$PATH"
 
 # rust
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
