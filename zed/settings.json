@@ -59,9 +59,6 @@
   "agent_servers": {
     "codex-acp": {
       "type": "registry",
-      "env": {
-        "HTTPS_PROXY": "http://127.0.0.1:7890",
-      },
     },
   },
   // Remote development.
