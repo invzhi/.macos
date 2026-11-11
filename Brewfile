@@ -21,7 +21,7 @@ brew "neovim"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Fast, disk space efficient package manager
-brew "pnpm@10", link: true
+brew "pnpm@11", link: true
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
 # Search tool like grep and The Silver Searcher
